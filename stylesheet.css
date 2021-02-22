@@ -1,0 +1,91 @@
+header {
+    height: 70px;
+    background-color: #E6E6E6;
+}
+
+.header-logo {
+    float: left;
+}
+
+.header-logo h1 {
+    letter-spacing: 10px;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.top-wrapper {
+    text-align: center;
+    color: black;
+    padding-top: 300px;
+    height: 1000px;
+    background-image: url(img/hbd.jpg);
+    background-size: cover;
+}
+
+.top-wrapper h1 {
+    letter-spacing: 15px;
+    font-size: 50px;
+    font-family: 'Comic Sans MS';
+}
+
+.tombol-gak-guna {
+    border: 4px solid white;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin-bottom: 55px;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.tombol-gak-guna:hover {
+    opacity: 1;
+    transition: 0.1s;
+    font-size: 23px;
+    text-decoration: none;
+}
+
+.container {
+    height: 1000px;
+}
+
+.about hr {
+    width: 100%;
+    border-bottom: 5px solid black;
+}
+
+.image2 {
+    border-radius: 50%;
+    text-align: center;
+}
+
+.image3 {
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+}
+
+footer {
+    height: 350px;
+    background-color: #E6E6E6;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 18px;
+    padding-top: 13px;
+    letter-spacing: 2px;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+}
